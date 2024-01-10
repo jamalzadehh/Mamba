@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sebuhi\\OneDrive\\İş masası\\MambaProject\\MambaProject.csproj": {}
+    "C:\\Users\\Sebuhi\\OneDrive\\İş masası\\MambaProject\\Mamba\\MambaProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sebuhi\\OneDrive\\İş masası\\MambaProject\\MambaProject.csproj": {
+    "C:\\Users\\Sebuhi\\OneDrive\\İş masası\\MambaProject\\Mamba\\MambaProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sebuhi\\OneDrive\\İş masası\\MambaProject\\MambaProject.csproj",
+        "projectUniqueName": "C:\\Users\\Sebuhi\\OneDrive\\İş masası\\MambaProject\\Mamba\\MambaProject.csproj",
         "projectName": "MambaProject",
-        "projectPath": "C:\\Users\\Sebuhi\\OneDrive\\İş masası\\MambaProject\\MambaProject.csproj",
+        "projectPath": "C:\\Users\\Sebuhi\\OneDrive\\İş masası\\MambaProject\\Mamba\\MambaProject.csproj",
         "packagesPath": "C:\\Users\\Sebuhi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sebuhi\\OneDrive\\İş masası\\MambaProject\\obj\\",
+        "outputPath": "C:\\Users\\Sebuhi\\OneDrive\\İş masası\\MambaProject\\Mamba\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +44,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.14, )"
